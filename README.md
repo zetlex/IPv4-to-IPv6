@@ -5,6 +5,14 @@ Auto-installer will be made in the future.
 ## Requirements
 - Ubuntu Server 20.04
 - Dedicated IPv4 and IPv6 Subnet
+<br>
+Can be purchased from https://bytehosting.cloud for 2.99€ / month.<br>
+1vCPU • Xeon E5 <br>
+4GB • RAM <br>
+30GB • NVMe Storage <br>
+1 • IPv4 Address <br>
+1 • IPv6 /64 Subnet <br>
+1TB • Bandwidth<br>
 
 ## Installation
 `sudo apt update && sudo apt upgrade -y sudo apt-get install git`<br>
@@ -19,5 +27,5 @@ Change `proto udp` to `proto udp6`.
 `sudo systemctl restart openvpn`
 
 ## Connecting
-Copy the .ovpn file to your device and connect to it using OpenVPN Connect.
+Copy the .ovpn file to your device and connect to it using OpenVPN Connect.<br>
 https://openvpn.net/client/client-connect-vpn-for-windows/
